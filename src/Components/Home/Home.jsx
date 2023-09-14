@@ -14,28 +14,8 @@ const Home = () => {
   }, [])
 
 
-  const handleCourses = (allCourse) => {
-    const ifAvailable = selectCourses.find(item => item.id === allCourse.id)
-
-    // let count1 = allCourse.price;
-    let count2 = allCourse.credit_hr;
-
-    if (ifAvailable) {
-      return alert('The limit is over');
-    } else {
-      selectCourses.forEach(item => {
-        count2 = count2 + item.credit_hr;
-      })
-      // const totalRemaining = 20000 - count2;
-
-      if (count2 > 20) {
-        return alert("Can't Add More")
-      } else {
-        // setTotalCost(count);
-        // setRemaining(totalRemaining)
-      setSelectCourses([...selectCourses, allCourse])
-      }  
-    }
+  const handleCourses = (course) => {
+    setSelectCourses([...selectCourses, course]);
   }
 
 
@@ -81,7 +61,7 @@ const Home = () => {
             </div>
           ))
         } </div>
-        <Cart handleCourses={handleCourses}></Cart>
+        <Cart selectCourses={selectCourses}></Cart>
       </div>
     </div>
 

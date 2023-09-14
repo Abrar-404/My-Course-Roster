@@ -7,15 +7,16 @@ const Cart = ({selectCourses}) => {
 
       <div className='border-b-2'>
         <h1 className='text-start font-bold text-lg pt-5 pb-8 '>Course Name</h1>
-      </div>
-
-      <div>
-        <h1 className='text-base text-[gray] text-start pt-5 border-b-2 pb-5'>Total Credit Hour : {selectCourses?.length}</h1>
         {
           selectCourses?.map(course => (
             <li>{course.title}</li> 
           ))
         }
+      </div>
+
+      <div>
+        <h1 className='text-base text-[gray] text-start pt-5 border-b-2 pb-5'>Total Credit Hour : </h1>
+        
       </div>
     </div>
   );
