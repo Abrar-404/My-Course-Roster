@@ -65,7 +65,9 @@ const Home = () => {
               </figure>
               <div class="card-body items-center text-center">
                 <h2 class="card-title text-base font-bold">{course.title}</h2>
-                <h1 className="text-[gray]">{course.description}</h1>
+                <h1 className="text-[gray] text-base pb-2">
+                  {course.description}
+                </h1>
                 <div className="flex gap-3 items-center">
                   <p className="text-base text-[gray] font-medium">
                     $ Price : {course.price}

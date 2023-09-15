@@ -2,7 +2,7 @@
   {
     "course_img": "https://i.ibb.co/PgQZYBV/Rectangle-2-2.png",
     "title": "Introduction to C Programming",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Dive into the world of programming with this beginner-friendly course. No prior experience needed. Get started with C programming basics.",
     "price": 15000,
     "id": 1,
     "credit_hr": 1
@@ -10,7 +10,7 @@
   {
     "course_img": "https://i.ibb.co/VS0pphv/Rectangle-2-3.png",
     "title": "Introduction to Algorithms",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Build a strong foundation in web development, covering HTML, CSS, and JavaScript. Master the essentials of algorithms and skills with us.",
     "price": 25000,
     "id": 2,
     "credit_hr": 2
@@ -18,7 +18,7 @@
   {
     "course_img": "https://i.ibb.co/YQz8cwT/Rectangle-2-4.png",
     "title": "Introduction to C++ for DSA",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Explore the world of data science, including data analysis, visualization, and machine learning, using C++ and be a master coder with us.",
     "price": 10000,
     "id": 3,
     "credit_hr": 10
@@ -26,7 +26,7 @@
   {
     "course_img": "https://i.ibb.co/w0DgsJp/Rectangle-2-5.png",
     "title": "Basic Data Structures",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Master Data Structures techniques and tools to learn the data management. Dive into the world of Data Structures.",
     "price": 35000,
     "id": 4,
     "credit_hr": 5
@@ -34,7 +34,7 @@
   {
     "course_img": "https://i.ibb.co/GvLnzSj/Rectangle-2-6.png",
     "title": "Introduction to OOP Python",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Develop essential skills for effective business management and leadership using Python. Learn Object-Oriented Programming.",
     "price": 19000,
     "id": 5,
     "credit_hr": 5
@@ -42,7 +42,7 @@
   {
     "course_img": "https://i.ibb.co/f0gQV1s/Rectangle-3.png",
     "title": "Software Engineering",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Learn everything about how softwares operate and get make your own softwares. Get started with software engineering.",
     "price": 23000,
     "id": 6,
     "credit_hr": 2
@@ -50,7 +50,7 @@
   {
     "course_img": "https://i.ibb.co/Ws6LFXQ/Rectangle-3-1.png",
     "title": "AWS, Cloud Computing",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Dive into the world of artificial intelligence with this introductory course on AI concepts and applications. Explore AWS and cloud computing.",
     "price": 35000,
     "id": 7,
     "credit_hr": 5
@@ -58,7 +58,7 @@
   {
     "course_img": "https://i.ibb.co/xMT9fjx/Rectangle-2.png",
     "title": "Database (MySQL)",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Build mobile apps for iOS and Android platforms with this comprehensive course on database management using MySQL and enhance your skills.",
     "price": 19000,
     "id": 8,
     "credit_hr": 5
@@ -66,7 +66,7 @@
   {
     "course_img": "https://i.ibb.co/7QbHBTn/Rectangle-2-1.png",
     "title": "Problem-Solving Part",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Enhance your problem-solving skills and be a master of the upcoming ups and downs with this course. From us you will get 24/7 supports and regular sessions",
     "price": 23000,
     "id": 9,
     "credit_hr": 2
