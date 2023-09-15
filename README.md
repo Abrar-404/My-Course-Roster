@@ -46,5 +46,6 @@ right side (selectCourses, setSelectCourses)
 - Third one was taken for calculating the remaining credit hours. Took initial value "20" and used it to calculate the credits remaining after selecting each courses. (remainingCources, setRemainingCources)
 
 <br>
+<br>
 - Fourth one was taken for calculating the total credit hour. The sum of the courses which has been selected and the amount of the credits in total (totalCreditCost, setTotalCreditCost)
 </li>
