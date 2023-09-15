@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
-import { FaBookOpen } from 'react-icons/fa';
+import { FiBookOpen } from 'react-icons/fi';
+import { FiDollarSign } from 'react-icons/fi';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -23,7 +24,7 @@ const Home = () => {
     let credits = course.credit_hr;
 
     if (ifAvailable) {
-      return toast.error('💀 Oops! Cannot add more!', {
+      return toast.error('💀 Hey! Its Already Added!', {
         position: toast.POSITION.TOP_CENTER,
       });
     } else {
@@ -33,7 +34,7 @@ const Home = () => {
 
       const totalCourcesRemaining = 20 - credits;
       if (credits > 20) {
-        return toast('😥 Oops! No More credits available!', {
+        return toast('😥 Oops! Insufficient Credits!', {
           position: 'top-center',
           autoClose: 5000,
           hideProgressBar: false,
@@ -69,10 +70,11 @@ const Home = () => {
                   {course.description}
                 </h1>
                 <div className="flex gap-3 items-center">
+                  <FiDollarSign></FiDollarSign>
                   <p className="text-base text-[gray] font-medium">
-                    $ Price : {course.price}
+                    Price : {course.price}
                   </p>
-                  <FaBookOpen></FaBookOpen>
+                  <FiBookOpen></FiBookOpen>
                   <p className="items-center text-base text-[gray] font-medium">
                     Credit : {course.credit_hr}hr
                   </p>
